@@ -1,27 +1,35 @@
-# GenesisBlockAfrica
+# Genesis Block Africa
+A proto-type front-end website for Genesis Block Africa.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+## Built With
+- JavaScript / Typescript
 
-## Development server
+## See Project 🌐
+Live Demo to be updated
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Getting Started
+You may setup the project on your local machine using the following steps:
 
-## Code scaffolding
+- Open the terminal
+- Get into the directory you want this folder to appear
+- Type 'git clone https://github.com/Draxeytina/genesis-block-africa.git'
+- Open the cloned project with your code editor
+- Run `npm i` to install project dependencies
+- Run `ng s` or `ng serve` to start the live server
+- Open the served url in your browser
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Optionally you can follow the link under see project above ☝️
 
-## Build
+## Author 🖋️
+👤 Tinashe Timothy Murambinda
+* <a href="https://github.com/Draxeytina/">Github</a>
+* <a href="https://twitter.com/tinamura2">Twitter</a>
+* <a href="https://www.linkedin.com/in/timothy-tinashe-murambinda/">LinkedIn</a>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Contributing
+You are welcome to make any contributions, issues, and feature requests!
 
-## Running unit tests
+## Show your support
+If you like this project please give a ⭐️!
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+>> Due to time, the mobile responsiveness is yet to be accomplished. Much time was taken researching the assets and learning Angular haha!
