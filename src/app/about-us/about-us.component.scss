@@ -1,4 +1,4 @@
-@import '../../styles.scss';
+@import "../../styles.scss";
 
 .about-us-wrapper {
   overflow-x: hidden;
@@ -18,7 +18,6 @@
     grid-template-columns: 1fr 1fr;
 
     .about-us-1 {
-
       em {
         font-size: small;
       }
@@ -29,7 +28,6 @@
         font-size: large;
 
         strong {
-
           .lime {
             color: $theme-color1;
           }
@@ -40,7 +38,8 @@
         }
       }
 
-      .paragraph-1, .paragraph-2 {
+      .paragraph-1,
+      .paragraph-2 {
         font-size: small;
       }
 
@@ -84,13 +83,11 @@
     }
 
     .about-us-2 {
-     
       border-radius: 5px;
       height: 40vh;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-auto-rows: auto;
-      
 
       div {
         display: flex;
@@ -115,7 +112,7 @@
     grid-template-columns: 1fr 1fr;
 
     .details-1 {
-      background-image: url('../../assets/genesisbed2.jpg');
+      background-image: url("../../assets/genesisbed2.jpg");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -195,8 +192,10 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 481px) and (max-width: 1024px) {
+}
 
+@media (max-width: 480px) {
   #about-us-main {
     grid-template-columns: 1fr;
   }
