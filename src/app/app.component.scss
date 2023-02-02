@@ -1,4 +1,4 @@
-@import '../styles.scss';
+@import "../styles.scss";
 
 .nav {
   display: grid;
@@ -18,7 +18,7 @@
       display: flex;
       column-gap: $padding;
       align-items: center;
-      
+
       li {
         color: var(--top-nav-txt);
       }
@@ -39,7 +39,7 @@
         padding-left: $padding;
         column-gap: $padding / 2;
 
-        li{
+        li {
           color: var(--top-nav-txt);
 
           svg {
@@ -58,7 +58,7 @@
 
   .bottom-nav {
     border-top: 1px solid gold;
-    border-bottom: 1px solid gold;;
+    border-bottom: 1px solid gold;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -118,11 +118,11 @@
   padding: 0;
   position: absolute;
   z-index: 1000;
-  
+
   li {
     padding: $padding (0.5 * $padding);
     background-color: transparentize($color: $theme-color1, $amount: 0.2);
-    
+
     a {
       color: var(--nav-links-color);
       font-size: medium;
@@ -150,19 +150,15 @@
   font-size: x-small;
 }
 
-@media (min-width: 480px) and (max-width: 1024px) {
-  
-  
+@media (min-width: 481px) and (max-width: 1024px) {
 }
 
 @media (max-width: 480px) {
-  
- .nav {
-  display: none;
- }
+  .nav {
+    display: none;
+  }
 
- .nav-links {
-  display: none;
- }
-
+  .nav-links {
+    display: none;
+  }
 }
