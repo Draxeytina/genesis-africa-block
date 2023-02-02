@@ -80,7 +80,7 @@
     </ul>
   </div>
   <div class="bottom-nav">
-    <div class="logo" id="#logo"></div>
+    <div class="logo" id="logo"></div>
     <div class="contacts" id="contacts">
       <div>
         <div class="svg-icon">
@@ -205,5 +205,107 @@
     >
   </li>
 </ul>
+<nav class="mobile-menu">
+  <div class="top-nav">
+    <ul class="list-1">
+      <li>Terms & Conditions</li>
+      <li>Privacy Policy</li>
+      <li>Membership</li>
+    </ul>
+    <ul class="list-2">
+      <li>Login/Register</li>
+      <ul class="icons">
+        <li>
+          <svg
+            fill="#000000"
+            height="800px"
+            width="800px"
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="-337 273 123.5 256"
+            xml:space="preserve"
+          >
+            <path
+              d="M-260.9,327.8c0-10.3,9.2-14,19.5-14c10.3,0,21.3,3.2,21.3,3.2l6.6-39.2c0,0-14-4.8-47.4-4.8c-20.5,0-32.4,7.8-41.1,19.3
+            c-8.2,10.9-8.5,28.4-8.5,39.7v25.7H-337V396h26.5v133h49.6V396h39.3l2.9-38.3h-42.2V327.8z"
+            />
+          </svg>
+        </li>
+        <li>
+          <svg
+            fill="#000000"
+            height="800px"
+            width="800px"
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="-271 296.6 256.4 208.4"
+            xml:space="preserve"
+          >
+            <path
+              d="M-14.6,321.2c-9.4,4.2-19.6,7-30.2,8.3c10.9-6.5,19.2-16.8,23.1-29.1c-10.2,6-21.4,10.4-33.4,12.8
+            c-9.6-10.2-23.3-16.6-38.4-16.6c-29,0-52.6,23.6-52.6,52.6c0,4.1,0.4,8.1,1.4,12c-43.7-2.2-82.5-23.1-108.4-55
+            c-4.5,7.8-7.1,16.8-7.1,26.5c0,18.2,9.3,34.3,23.4,43.8c-8.6-0.3-16.7-2.7-23.8-6.6v0.6c0,25.5,18.1,46.8,42.2,51.6
+            c-4.4,1.2-9.1,1.9-13.9,1.9c-3.4,0-6.7-0.3-9.9-0.9c6.7,20.9,26.1,36.1,49.1,36.5c-18,14.1-40.7,22.5-65.3,22.5
+            c-4.2,0-8.4-0.2-12.6-0.7c23.3,14.9,50.9,23.6,80.6,23.6c96.8,0,149.7-80.2,149.7-149.7c0-2.3,0-4.6-0.1-6.8
+            C-30.5,341-21.6,331.8-14.6,321.2"
+            />
+          </svg>
+        </li>
+        <li>
+          <svg
+            fill="#000000"
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="-271 283.9 256 235.1"
+            xml:space="preserve"
+          >
+            <g>
+              <rect x="-264.4" y="359.3" width="49.9" height="159.7" />
+              <path
+                d="M-240.5,283.9c-18.4,0-30.5,11.9-30.5,27.7c0,15.5,11.7,27.7,29.8,27.7h0.4c18.8,0,30.5-12.3,30.4-27.7
+              C-210.8,295.8-222.1,283.9-240.5,283.9z"
+              />
+              <path
+                d="M-78.2,357.8c-28.6,0-46.5,15.6-49.8,26.6v-25.1h-56.1c0.7,13.3,0,159.7,0,159.7h56.1v-86.3c0-4.9-0.2-9.7,1.2-13.1
+              c3.8-9.6,12.1-19.6,27-19.6c19.5,0,28.3,14.8,28.3,36.4V519h56.6v-88.8C-14.9,380.8-42.7,357.8-78.2,357.8z"
+              />
+            </g>
+          </svg>
+        </li>
+      </ul>
+      <li class="switch">
+        <button (click)="toggleDarkTheme()" class="btn-toggle">
+          {{ theme }}
+        </button>
+      </li>
+    </ul>
+  </div>
+  <svg class="burger" (click)="toggleMenu()" id="hamburger" width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M5 12H18" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+    <path d="M5 17H11" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+    <path d="M5 7H15" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+  </svg>
+  <ul class="close" id="mobile-menu-list" (click)="toggleMenu()">
+    <li>
+      <a routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page"
+        >Home</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/about-us"
+        routerLinkActive="active"
+        ariaCurrentWhenActive="page"
+        >About us</a
+      >
+    </li>
+  </ul>
+</nav>
 
 <router-outlet></router-outlet>
