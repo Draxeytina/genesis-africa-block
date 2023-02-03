@@ -7,6 +7,9 @@ A proto-type front-end website for Genesis Block Africa.
 ## See Project 🌐
 Live Demo to be updated
 
+https://user-images.githubusercontent.com/59999191/216268427-cef9f3cb-85f2-4239-819d-0b7ca23ae2ee.mp4
+
+
 ## Getting Started
 You may setup the project on your local machine using the following steps:
 
