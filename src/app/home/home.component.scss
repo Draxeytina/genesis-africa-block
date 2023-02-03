@@ -110,15 +110,25 @@
           width: 7rem;
           height: 7rem;
           border-radius: 50%;
+        }
 
-          img {
-            height: inherit;
-            width: inherit;
-          }
+        .round-images:first-child {
+          background-image: url("../../assets/house1.jpg");
+          background-position: center;
+          background-size: cover;
+        }
+
+        .round-images:nth-child(2) {
+          background-image: url("../../assets/house2.jpg");
+          background-position: center;
+          background-size: cover;
         }
 
         .round-images:last-child {
           border: 5px solid $theme-color1;
+          background-image: url("../../assets/house3.jpg");
+          background-position: center;
+          background-size: cover;
         }
       }
 
