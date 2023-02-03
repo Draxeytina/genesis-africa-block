@@ -34,5 +34,3 @@ You are welcome to make any contributions, issues, and feature requests!
 
 ## Show your support
 If you like this project please give a ⭐️!
-
->> Due to time, the mobile responsiveness is yet to be accomplished. Much time was taken researching the assets and learning Angular haha!
