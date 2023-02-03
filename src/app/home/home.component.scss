@@ -9,6 +9,10 @@
   justify-content: center;
   z-index: -10;
 
+  #back-to-top {
+    margin-right: 28px;
+  }
+
   main {
     overflow-x: hidden;
     width: 100vw;
@@ -310,6 +314,10 @@
       }
     }
   }
+
+  .footer {
+    display: flex;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 992px) {
@@ -345,7 +353,6 @@
       flex-direction: column;
       row-gap: 8px;
       .large {
-
         strong {
           font-size: large;
         }
@@ -358,7 +365,6 @@
     padding: 0 5vw;
 
     .description-1 {
-
       .description-docs {
         display: flex;
         justify-content: center;
@@ -386,6 +392,19 @@
     li {
       padding: 4px;
       font-size: xx-small;
+    }
+  }
+
+  .footer {
+    #footer-list {
+      li {
+        font-size: xx-small;
+        padding: 2px;
+      }
+    }
+
+    #back-to-top {
+      margin-right: 5px;
     }
   }
 }
