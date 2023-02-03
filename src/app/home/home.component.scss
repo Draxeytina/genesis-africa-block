@@ -279,7 +279,7 @@
     strong {
       color: $theme-color1;
       font-size: x-large;
-      width: 10%;
+      width: 15%;
     }
 
     p {
@@ -306,7 +306,24 @@
   }
 }
 
-@media (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 481px) and (max-width: 992px) {
+  #home-description {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 5vw;
+  }
+
+  #home-details {
+    
+    .details-2 {
+      padding: 40px;
+    }
+  }
+
+  .home-about-us {
+    #about-us-heading {
+      font-size: large;
+    }
+  }
 }
 
 @media (max-width: 480px) {
@@ -316,10 +333,29 @@
 
   #home-description {
     grid-template-columns: 1fr;
+    padding: 0 5vw;
   }
 
   #home-details {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
   }
+
+  .home-about-us {
+    width: 90%;
+    padding: $padding;
+
+    #about-us-heading {
+      width: 25%;
+    }
+  }
+
+  #footer-list {
+
+    li {
+      padding: 4px;
+      font-size: xx-small;
+    }
+  }
+
 }
