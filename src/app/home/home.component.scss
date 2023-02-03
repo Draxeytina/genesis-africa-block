@@ -333,12 +333,38 @@
 
 @media (max-width: 480px) {
   #main-info {
-    margin-left: 2%;
+    display: flex;
+    height: 40vh;
+    margin: 25% 5%;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 16px;
+
+    .top-main {
+      display: flex;
+      flex-direction: column;
+      row-gap: 8px;
+      .large {
+
+        strong {
+          font-size: large;
+        }
+      }
+    }
   }
 
   #home-description {
     grid-template-columns: 1fr;
     padding: 0 5vw;
+
+    .description-1 {
+
+      .description-docs {
+        display: flex;
+        justify-content: center;
+        padding: 16px;
+      }
+    }
   }
 
   #home-details {
@@ -352,6 +378,7 @@
 
     #about-us-heading {
       width: 25%;
+      font-size: medium;
     }
   }
 
