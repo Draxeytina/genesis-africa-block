@@ -1,5 +1,5 @@
 # Genesis Block Africa
-A proto-type front-end website for Genesis Block Africa.
+A proto-type website for Genesis Block Africa. Built with Angular.
 
 ## Built With
 - JavaScript / Typescript
