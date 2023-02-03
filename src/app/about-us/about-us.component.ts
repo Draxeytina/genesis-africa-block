@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title, Meta } from '@angular/platform-browser';
 
 @Component({
   selector: 'home',
@@ -7,5 +8,9 @@ import { Component } from '@angular/core';
 })
 
 export class AboutUsComponent {
-  title = 'About us';
+ 
+  constructor(private titleService: Title, private metaService: Meta) {
+    this.titleService.setTitle('Genesis Block Africa About Us'); 
+    this.metaService.updateTag({name: 'description', content: 'Find out more about Genesis Real Estate Africa'});
+  }
 }
