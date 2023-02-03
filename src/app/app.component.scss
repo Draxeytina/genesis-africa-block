@@ -154,11 +154,29 @@
   .mobile-menu {
     display: none;
   }
+
+  .top-nav {
+    .list-1 {
+
+      li {
+        font-size: small;
+      }
+    }
+  }
 }
 
 @media (min-width: 481px) and (max-width: 992px) {
   .mobile-menu {
     display: none;
+  }
+
+  .top-nav {
+    .list-1 {
+
+      li {
+        font-size: xx-small;
+      }
+    }
   }
 
   .nav-links {

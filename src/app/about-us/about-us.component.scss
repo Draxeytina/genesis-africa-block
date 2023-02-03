@@ -196,6 +196,13 @@
   #about-us-main {
     padding: 10%;
   }
+
+  #about-us-details {
+
+    .details-2 {
+      padding: calc($padding * 5);
+    }
+  }
 }
 
 @media (max-width: 480px) {
