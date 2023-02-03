@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
 
 $background-color-light: #fff;
 $background-color-dark: #1d2124;
@@ -7,7 +7,7 @@ $text-color-dark: #1d2124;
 $theme-color1: #70b202;
 $theme-color2: #243d4b;
 $padding: 8px;
-$primary-font: 'Roboto', sans-serif;
+$primary-font: "Roboto", sans-serif;
 $border-light: black;
 $border-dark: white;
 
@@ -18,17 +18,26 @@ $border-dark: white;
   vertical-align: baseline;
   font: $primary-font;
 
-  ol, ul {
+  ol,
+  ul {
     list-style: none;
   }
 
   a {
     text-decoration: none;
-
   }
 
-  article, aside, details, figcaption, figure, 
-  footer, header, hgroup, menu, nav, section {
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
     display: block;
   }
 }
@@ -36,7 +45,7 @@ $border-dark: white;
 body {
   --background-color: #fff;
   --text-color: #1d2124;
-  --logo: url('./assets/genesisblockimage.PNG');
+  --logo: url("./assets/genesisblockimage.PNG");
   --bottom-nav-color: #fff;
   --top-nav-color: #1d2124;
   --top-nav-txt: #fff;
@@ -48,21 +57,25 @@ body {
 body.dark-theme {
   --background-color: #1d2124;
   --text-color: #fff;
-  --logo: url('./assets/genesisblockimagedark.PNG');
+  --logo: url("./assets/genesisblockimagedark.PNG");
   --bottom-nav-color: #15181d;
   --top-nav-color: #70b202;
   --top-nav-txt: #15181d;
   --nav-links-color: #15181d;
   --btn-text-color: #15181d;
   --btn-background-color: #fff;
-
 }
 
 body {
   background: var(--background-color);
 }
 
-h1, h2, p, a, li, em, b {
+h1,
+h2,
+p,
+a,
+li,
+em,
+b {
   color: var(--text-color);
 }
-
