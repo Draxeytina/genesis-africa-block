@@ -348,6 +348,10 @@
     justify-content: center;
     row-gap: 16px;
 
+    .medium {
+      font-size: medium;
+    }
+
     .top-main {
       display: flex;
       flex-direction: column;
@@ -358,11 +362,17 @@
         }
       }
     }
+
+    .bottom-main {
+      span {
+        font-size: x-small;
+      }
+    }
   }
 
   #home-description {
     grid-template-columns: 1fr;
-    padding: 0 5vw;
+    padding: 0 4px;
 
     .description-1 {
       .description-docs {
@@ -370,12 +380,25 @@
         justify-content: center;
         padding: 16px;
       }
+
+      .description-1-images {
+        padding: 0px;
+        column-gap: 2px;
+      }
     }
   }
 
   #home-details {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+
+    .details-1 {
+
+      .details-1-description {
+        top: calc(100% - 52px);
+        left: calc(100% - 244px);
+      }
+    }
   }
 
   .home-about-us {
