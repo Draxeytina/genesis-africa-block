@@ -37,7 +37,7 @@
       .icons {
         display: flex;
         padding-left: $padding;
-        column-gap: $padding / 2;
+        column-gap: calc($padding / 2);
 
         li {
           color: var(--top-nav-txt);
@@ -85,7 +85,7 @@
       div {
         display: grid;
         grid-template-columns: 1fr 6fr;
-        column-gap: $padding/2;
+        column-gap: calc($padding/2);
 
         .svg-icon {
           height: 16px;
@@ -224,7 +224,7 @@
         .icons {
           display: flex;
           padding-left: $padding;
-          column-gap: $padding / 2;
+          column-gap: calc($padding / 2);
   
           li {
             color: var(--top-nav-txt);
