@@ -166,7 +166,7 @@
         li {
           color: $text-color-light;
           font-size: xx-small;
-          width: 85px;
+          width: 95px;
           padding: (0.5 * $padding) 0;
         }
       }
@@ -193,6 +193,9 @@
 }
 
 @media (min-width: 481px) and (max-width: 992px) {
+  #about-us-main {
+    padding: 10%;
+  }
 }
 
 @media (max-width: 480px) {
