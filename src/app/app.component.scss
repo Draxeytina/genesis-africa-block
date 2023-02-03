@@ -196,39 +196,39 @@
       padding: $padding 10%;
       font-size: xx-small;
       background-color: var(--top-nav-color);
-  
+
       .list-1 {
         display: flex;
         column-gap: $padding;
         align-items: center;
         justify-content: center;
         border-bottom: 2px solid $theme-color2;
-  
+
         li {
           padding-bottom: $padding;
           color: var(--top-nav-txt);
         }
       }
-  
+
       .list-2 {
         display: flex;
         justify-content: space-between;
         column-gap: $padding;
         align-items: center;
         padding: $padding;
-  
+
         li {
           color: var(--top-nav-txt);
         }
-  
+
         .icons {
           display: flex;
           padding-left: $padding;
           column-gap: calc($padding / 2);
-  
+
           li {
             color: var(--top-nav-txt);
-  
+
             svg {
               height: 10px;
               width: 10px;
@@ -236,7 +236,7 @@
             }
           }
         }
-  
+
         .switch {
           padding-left: $padding;
         }
@@ -248,7 +248,7 @@
       justify-content: space-between;
       align-items: center;
 
-      svg{
+      svg {
         display: block;
         padding-left: $padding;
 
