@@ -181,11 +181,28 @@
         .square-img {
           height: 4rem;
           width: 4rem;
+          background-position: center;
+          background-size: cover;
+        }
 
-          img {
-            width: inherit;
-            height: inherit;
-          }
+        .square-img:first-child {
+          background-image: url("../../assets/house1.jpg");
+        }
+
+        .square-img:nth-child(2) {
+          background-image: url("../../assets/house2.jpg");
+        }
+
+        .square-img:nth-child(3) {
+          background-image: url("../../assets/house3.jpg");
+        }
+
+        .square-img:nth-child(4) {
+          background-image: url("../../assets/house4.jpg");
+        }
+
+        .square-img:last-child {
+          background-image: url("../../assets/house5.jpg");
         }
       }
     }
