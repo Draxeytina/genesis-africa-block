@@ -157,7 +157,6 @@
 
   .top-nav {
     .list-1 {
-
       li {
         font-size: small;
       }
@@ -172,7 +171,6 @@
 
   .top-nav {
     .list-1 {
-
       li {
         font-size: xx-small;
       }
@@ -208,6 +206,8 @@
 
   .mobile-menu {
     display: block;
+    box-shadow: 1px 1px 20px 0.1px #9ac567;
+
     .top-nav {
       display: grid;
       grid-template-columns: 1fr;
@@ -313,7 +313,6 @@
           background-color: lighten($color: $theme-color1, $amount: 0.5);
         }
       }
-
     }
   }
 }
