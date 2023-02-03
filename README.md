@@ -1,10 +1,22 @@
 # Genesis Block Africa
 A proto-type website for Genesis Block Africa. Built with Angular.
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/59999191/216660099-15f70e09-e85a-4acf-9180-fd12666b3be3.png" alt="Mockup" height="500px">
+</p>
+
 ## Built With
 - JavaScript / Typescript
 - Angular
 - Sass
+
+## Features
+- Toggle dark/light mode
+- Default browser theme inheritance
+- Mobile responsiveness
+- SPA
+- Search engine optimisation (SEO) 
+- Quick load optimisation
 
 ## See Project 🌐
 
@@ -33,7 +45,7 @@ Optionally you can follow the link under see project above ☝️
 * <a href="https://www.linkedin.com/in/timothy-tinashe-murambinda/" target="_blank">LinkedIn</a>
 
 ## Contributing
-You are welcome to make any contributions, issues, and feature requests!
+You are welcome to make any contributions, raise <a href="https://github.com/Draxeytina/genesis-africa-block/issues">issues</a>, and feature requests!
 
 ## Show your support
 If you like this project please give a ⭐️!
