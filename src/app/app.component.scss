@@ -104,6 +104,10 @@
             text-align: right;
           }
         }
+
+        .text-last {
+          margin-left: -20px;
+        }
       }
     }
   }
@@ -295,7 +299,7 @@
       height: 90vh;
       justify-content: center;
       align-items: center;
-      padding: 16px 0;
+      padding: 40px 0;
       box-shadow: 30px 20px 20px 20px #9ac567;
 
       li {
@@ -319,4 +323,13 @@
 
 .close {
   display: none;
+}
+
+.burger-close-1 {
+  transform: skew(356deg, 35deg);
+}
+
+.burger-close-2 {
+  transform-origin: left;
+  transform: translate(24px, -2px) rotate(129deg) scale(1.5);
 }
